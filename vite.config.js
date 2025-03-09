@@ -10,4 +10,11 @@ export default defineConfig({
             '~': path.resolve(__dirname, 'src'),
         },
     },
+    // server: {
+    //     watch: {
+    //         usePolling: true, // Bật polling để theo dõi thay đổi file
+    //     },
+    //     host: true, // Cho phép truy cập từ các thiết bị khác
+    //     port: 3000, // Có thể đổi sang port khác nếu cần
+    // },
 });
